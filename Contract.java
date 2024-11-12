@@ -12,3 +12,10 @@ public interface Contract {
     void undo();
 
 }
+
+class Main {
+    public static void main(String[] args) {
+        Adventurer Jordan = new Adventurer();
+        Jordan.fly(8,9);
+    }
+}
